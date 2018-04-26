@@ -40,7 +40,7 @@ var calculations = [
     {
       title: 'LoadRate',
       value: function(row) {
-        return row.load / row.impression;
+        return (row.load / row.impression) * 100;
       },
       template: function(val, row) {
           return val.toFixed(2) + '%';
@@ -50,7 +50,7 @@ var calculations = [
     {
       title: 'DisplayRate',
       value: function(row) {
-        return row.display / row.load;
+        return (row.display / row.load) * 100;
       },
       template: function(val, row) {
           return val.toFixed(2) + '%';
