@@ -1,4 +1,4 @@
-# Data Table Challenge
+# Data Table Challenge - Sumit
 
 This challenge is create a component that displays analytics data in a pivot table using [react-pivot](https://github.com/davidguttman/react-pivot). This is what a basic, unstyled version looks like:
 
